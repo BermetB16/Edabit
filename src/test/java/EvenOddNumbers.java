@@ -7,7 +7,7 @@ public class EvenOddNumbers {
     public String even_or_odd(int number) {
         return (number % 2 == 0) ? "Even":"Odd";
 }
-
+// eto test
     @Test
     public void evenOddNumbers(){
         EvenOddNumbers obj = new EvenOddNumbers();
